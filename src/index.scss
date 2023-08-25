@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #272b30;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+$cardBG:#32383e;
+$textCol:#aaa;
+$navBarBg:#272b30;
+$linkColor:rgba(255, 255, 255, 0.55);
+
+
+.card {
+  background-color: $cardBG;
+  transition: all 0.5s;
+  &:hover{
+    transform: scale(1.07);
+  }
+}
+h1,h2,h3,h4,h5,h6,i,p,li{
+  color: $textCol;
+}
+.nav-link{
+  color: $linkColor;
+  &:hover {
+    color: #4799eb;
+  }
+}
+.dropdown-item{
+  color: $navBarBg;
+  &:hover{
+    color: $navBarBg;
+  }
+}
+.navbar-brand{
+  color: white;
+  &:hover{
+    color: white;
+  }
+}
+
+span {
+  background-color: #7a8288;
+  color: $navBarBg;
+  padding: 0px 7px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 10px;
+}

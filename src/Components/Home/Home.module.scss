@@ -1,0 +1,25 @@
+@import '../../index.scss';
+
+.bgImage{
+    background-image: url(../../../public/Images/paladins.b44d33d6e7ee1ba8.png);
+    background-position: center center;
+    background-size: cover;
+}
+.spanInfo {
+    color: #0dcaf0 !important;
+    background-color: transparent !important;
+    font-size: 32px !important;
+    font-weight: 500;
+}
+@media screen and (max-width:600px) {
+    h2 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .pInfo {
+        text-align: center;
+    }
+    .spanInfo {
+        font-size: 20px !important;
+    }
+}

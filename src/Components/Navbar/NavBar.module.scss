@@ -1,0 +1,20 @@
+@import '../../index.scss';
+
+.navBarBg{
+    background-color: $navBarBg;
+    border-bottom: 1px solid rgba(28,28,28,.6);
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+}
+.btnOutline{
+    color: #4799eb;
+    border-color: #4799eb 10px;
+    height: fit-content;
+}
+.imgStyle{
+    filter: drop-shadow(1px 1px 3px #1983e6ce);
+}
+@media screen and (max-width:600px) {
+    .spanProp{
+        background-color: transparent !important;
+    }
+}
